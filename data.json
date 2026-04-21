@@ -1,0 +1,105 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "أساسيات التصميم الجرافيكي",
+      "category": "تصميم",
+      "image": "https://via.placeholder.com/300x200/4a90e2/ffffff?text=Graphic+Design",
+      "description": "تعلم أساسيات التصميم الجرافيكي من الصفر",
+      "lessons": [
+        {
+          "title": "مقدمة في التصميم",
+          "videoId": "dQw4w9WgXcQ"
+        },
+        {
+          "title": "الألوان والتكوين",
+          "videoId": "jNQXAC9IVRw"
+        },
+        {
+          "title": "الطباعة والخطوط",
+          "videoId": "9bZkp7q19f0"
+        }
+      ],
+      "whatWillLearn": [
+        "مبادئ التصميم الأساسية",
+        "استخدام الألوان بفعالية",
+        "تصميم الشعارات والبنرات"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "تطوير الويب باستخدام HTML & CSS",
+      "category": "برمجة",
+      "image": "https://via.placeholder.com/300x200/4a90e2/ffffff?text=Web+Development",
+      "description": "كورس شامل لتعلم تطوير الويب",
+      "lessons": [
+        {
+          "title": "مقدمة في HTML",
+          "videoId": "dQw4w9WgXcQ"
+        },
+        {
+          "title": "تعمق في CSS",
+          "videoId": "jNQXAC9IVRw"
+        },
+        {
+          "title": "Responsive Design",
+          "videoId": "9bZkp7q19f0"
+        }
+      ],
+      "whatWillLearn": [
+        "بناء صفحات ويب احترافية",
+        "تصميم متجاوب",
+        "الممارسات الفضلى في الكود"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "JavaScript المتقدم",
+      "category": "برمجة",
+      "image": "https://via.placeholder.com/300x200/4a90e2/ffffff?text=JavaScript",
+      "description": "إتقان JavaScript للتطبيقات الحديثة",
+      "lessons": [
+        {
+          "title": "أساسيات JavaScript",
+          "videoId": "dQw4w9WgXcQ"
+        },
+        {
+          "title": "البرمجة الكائنية التوجيه",
+          "videoId": "jNQXAC9IVRw"
+        },
+        {
+          "title": "العمل مع APIs",
+          "videoId": "9bZkp7q19f0"
+        }
+      ],
+      "whatWillLearn": [
+        "مفاهيم JavaScript المتقدمة",
+        "البرمجة غير المتزامنة",
+        "استخدام المكتبات الشهيرة"
+      ]
+    }
+  ],
+  "trainings": [
+    {
+      "id": 1,
+      "name": "دورة التصميم الاحترافية",
+      "category": "تصميم",
+      "image": "https://via.placeholder.com/300x200/4a90e2/ffffff?text=Professional+Design",
+      "googleFormLink": "https://forms.gle/example1"
+    },
+    {
+      "id": 2,
+      "name": "دورة تطوير الويب الشاملة",
+      "category": "برمجة",
+      "image": "https://via.placeholder.com/300x200/4a90e2/ffffff?text=Web+Training",
+      "googleFormLink": "https://forms.gle/example2"
+    },
+    {
+      "id": 3,
+      "name": "دورة التسويق الرقمي",
+      "category": "تسويق",
+      "image": "https://via.placeholder.com/300x200/4a90e2/ffffff?text=Digital+Marketing",
+      "googleFormLink": "https://forms.gle/example3"
+    }
+  ]
+}
