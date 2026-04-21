@@ -142,7 +142,7 @@ body.dark-mode .goal-icon-wrapper {
 /* =================== HEADER =================== */
 header {
   background: var(--white);
-  padding: 16px 0;
+  padding: 12px 0;
   box-shadow: 0 2px 12px rgba(15, 23, 42, 0.08);
   position: sticky;
   top: 0;
@@ -251,11 +251,11 @@ body.dark-mode .auth-icon-btn:hover {
 }
 
 .btn-auth {
-  padding: 12px 32px;
+  padding: 8px 20px;
   border: none;
-  border-radius: 12px;
+  border-radius: 10px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   transition: all 0.3s ease;
   text-decoration: none;
@@ -315,13 +315,13 @@ body.dark-mode .auth-icon-btn:hover {
 }
 
 .btn-user-menu {
-  padding: 12px 32px;
+  padding: 8px 20px;
   background: var(--primary-gradient);
   color: var(--white);
   border: none;
-  border-radius: 12px;
+  border-radius: 10px;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   transition: all var(--transition);
   box-shadow: 0 4px 12px rgba(30, 64, 175, 0.15);
@@ -407,15 +407,15 @@ body.dark-mode .auth-icon-btn:hover {
   background: var(--primary-gradient);
   border: 2px solid rgba(255, 255, 255, 0.2);
   color: var(--white);
-  padding: 12px;
+  padding: 8px;
   border-radius: 50%;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   box-shadow: 0 8px 24px rgba(30, 64, 175, 0.25);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  width: 48px;
-  height: 48px;
+  width: 36px;
+  height: 36px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -457,7 +457,7 @@ body.dark-mode .auth-icon-btn:hover {
 }
 
 .logo img {
-  height: 40px;
+  height: 32px;
   width: auto;
   transition: opacity 0.3s ease;
 }
@@ -2580,9 +2580,181 @@ footer {
 
 @media (max-width: 480px) {
   .header-container {
-    padding: 10px 12px;
+    padding: 8px 12px;
   }
+  
+  .header-spacer {
+    width: 50px;
+  }
+  
+  .logo img {
+    height: 28px;
+  }
+  
+  .theme-toggle {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+    padding: 6px;
+  }
+  
+  .btn-auth {
+    padding: 6px 16px;
+    font-size: 11px;
+  }
+  
+  .btn-user-menu {
+    padding: 6px 16px;
+    font-size: 11px;
+  }
+  
+  .auth-icon-btn {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .auth-icon-btn i {
+    font-size: 18px;
+  }
+}
 
+/* =================== MOBILE RESPONSIVE DESIGN =================== */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 42px;
+    line-height: 1.2;
+  }
+  
+  .hero-text {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .courses-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .course-card {
+    max-width: 100%;
+  }
+  
+  .course-image {
+    height: 180px;
+  }
+  
+  .course-info {
+    padding: 12px;
+  }
+  
+  .course-name {
+    font-size: 13px;
+  }
+  
+  .course-description {
+    font-size: 11px;
+  }
+  
+  .course-button {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+  
+  .coming-soon-title {
+    font-size: 22px;
+  }
+  
+  .coming-soon-description {
+    font-size: 14px;
+  }
+  
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .footer-section {
+    text-align: center;
+  }
+  
+  .footer-links {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 32px;
+  }
+  
+  .hero-text {
+    font-size: 14px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  
+  .section-title {
+    font-size: 20px;
+  }
+  
+  .courses-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  
+  .course-card {
+    border-radius: 12px;
+  }
+  
+  .course-image {
+    height: 160px;
+  }
+  
+  .course-info {
+    padding: 10px;
+  }
+  
+  .course-name {
+    font-size: 12px;
+  }
+  
+  .course-description {
+    font-size: 10px;
+  }
+  
+  .course-button {
+    padding: 6px 10px;
+    font-size: 11px;
+  }
+  
+  .coming-soon-icon {
+    font-size: 48px;
+  }
+  
+  .coming-soon-title {
+    font-size: 18px;
+  }
+  
+  .coming-soon-description {
+    font-size: 12px;
+  }
+  
   .logo-container {
     flex: 1;
   }
@@ -2602,159 +2774,102 @@ footer {
   }
 
   .theme-toggle {
-    padding: 8px 12px;
-    font-size: 11px;
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+    padding: 4px;
   }
+}
 
-  .hero-container {
-    padding: 20px 12px;
-    gap: 15px;
-  }
-
+/* =================== TABLET RESPONSIVE DESIGN =================== */
+@media (min-width: 769px) and (max-width: 1024px) {
   .hero-title {
-    font-size: 22px;
+    font-size: 48px;
   }
-
+  
   .hero-text {
-    font-size: 13px;
+    font-size: 17px;
   }
-
-  .hero-image {
-    display: none;
-  }
-
+  
   .btn {
-    padding: 10px 16px;
-    font-size: 12px;
+    padding: 14px 28px;
+    font-size: 15px;
   }
-
+  
   .section-title {
-    font-size: 20px;
-    padding: 0 12px;
-  }
-
-  .courses-grid {
-    padding: 20px 12px;
-  }
-
-  .course-card {
-    border-radius: 12px;
-  }
-
-  .features-grid {
-    grid-template-columns: 1fr;
-    padding: 20px 12px;
-  }
-
-  .feature-card {
-    padding: 16px;
-    border-radius: 12px;
-  }
-
-  .feature-icon {
-    font-size: 32px;
-  }
-
-  .feature-card h3 {
-    font-size: 15px;
-  }
-
-  .feature-card p {
-    font-size: 12px;
-  }
-
-  .goals-grid {
-    padding: 20px 12px;
-  }
-
-  .goal-card {
-    padding: 16px;
-  }
-
-  .goal-number {
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-  }
-
-  .goal-card h3 {
-    font-size: 15px;
-  }
-
-  .goal-card p {
-    font-size: 12px;
-  }
-
-  .dashboard-grid {
-    padding: 20px 12px;
-  }
-
-  .dashboard-card {
-    padding: 16px;
-  }
-
-  .stat-label {
-    font-size: 12px;
-  }
-
-  .stat-value {
     font-size: 28px;
   }
-
-  .subscribed-item {
-    padding: 12px;
-    flex-direction: column;
-    gap: 10px;
+  
+  .courses-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
   }
-
-  .subscribed-item-action {
-    width: 100%;
+  
+  .course-image {
+    height: 200px;
   }
-
-  .modal-content {
-    padding: 20px 16px;
+  
+  .coming-soon-title {
+    font-size: 25px;
   }
-
-  .modal-input,
-  .modal-btn {
-    font-size: 12px;
+  
+  .coming-soon-description {
+    font-size: 15px;
   }
+}
 
-  .footer-content {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 16px 12px;
-    text-align: center;
+/* =================== LARGE DESKTOP DESIGN =================== */
+@media (min-width: 1200px) {
+  .hero-title {
+    font-size: 68px;
   }
-
-  .footer-section {
-    padding: 8px;
+  
+  .hero-text {
+    font-size: 19px;
   }
-
-  .footer-section h3 {
-    font-size: 16px;
+  
+  .btn {
+    padding: 18px 42px;
+    font-size: 17px;
   }
-
-  .footer-links {
-    gap: 8px;
-    align-items: center;
+  
+  .section-title {
+    font-size: 36px;
   }
-
-  .contact-info {
-    align-items: center;
+  
+  .courses-grid {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 32px;
   }
-
-  .social-links {
-    justify-content: center;
+  
+  .course-image {
+    height: 220px;
   }
+}
 
-  .user-menu-dropdown {
-    min-width: 150px;
-    right: -10px;
+/* =================== TOUCH DEVICE OPTIMIZATIONS =================== */
+@media (hover: none) and (pointer: coarse) {
+  .course-card:hover {
+    transform: none;
   }
+  
+  .btn:hover {
+    transform: none;
+  }
+  
+  .auth-icon-btn:hover {
+    transform: none;
+  }
+  
+  .theme-toggle:hover {
+    transform: none;
+  }
+}
 
-  .menu-item {
-    padding: 10px 12px;
-    font-size: 12px;
+/* =================== HIGH DPI DISPLAYS =================== */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .logo img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
   }
 }
